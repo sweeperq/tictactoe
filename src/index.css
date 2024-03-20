@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply leading-relaxed text-lg;
+    }
+
+    h1 {
+        @apply text-5xl mb-6;
+    }
+
+    h2 {
+        @apply text-4xl mb-4;
+    }
+
+    h3 {
+        @apply text-3xl mb-4;
+    }
+
+    p {
+        @apply mb-4;
+    }
+
+    a {
+        @apply text-blue-600 underline font-semibold hover:text-orange-600;
+    }
+}
